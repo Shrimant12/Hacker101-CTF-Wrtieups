@@ -1,0 +1,23 @@
+Name : Micro-CMS v1/Flag1
+
+Difficulty : Easy
+
+Points : 2 per Flag 
+
+Flags : 4
+ 
+Skills : Web 
+
+Hints :
+
+    Make sure you tamper with every input
+    Have you tested for the usual culprits? XSS, SQL injection, path injection
+    Bugs often occur when an input should always be one type and turns out to be another
+    Remember, form submissions aren't the only inputs that come from browsers
+
+To Do : 
+	
+	- As you know that you can edit the content, just try adding a ' after edit page path.
+
+	Example : 
+	http://yourlink/path/page/edit/1'
