@@ -1,0 +1,25 @@
+Name : A little something to get you started
+
+Difficulty : Trivial 
+
+Points : 1
+ 
+Skills : Web 
+
+Hints : 
+    
+    -Take a look at the source for the page
+    -Does anything seem out of the ordinary?
+    -The page looks really plain
+    -What is that image?
+
+To Do: 
+	
+	- Whenever we have any challenges related to WEB, the first thing we do is we have to check the page source 
+	- Because, most of developers have this habit of commeting the code.
+	- We may also find some sensitive endpoints, try accessing those endpoints and see what the response is.
+	- If some path/URL is commented try to access those paths/URL and see what happens.
+
+
+
+
