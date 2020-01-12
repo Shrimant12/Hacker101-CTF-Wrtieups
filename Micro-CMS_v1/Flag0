@@ -1,0 +1,44 @@
+Name : Micro-CMS v1/Flag0
+
+Difficulty : Easy
+
+Points : 2 per Flag 
+
+Flags : 4
+ 
+Skills : Web 
+
+Hints : 
+    Try creating a new page
+    How are pages indexed?
+    Look at the sequence of IDs
+    If the front door doesn't open, try the window
+    In what ways can you retrieve page contents?
+
+
+To Do : 
+	- When we click on first link, we get URL as http://yourlink/path/page/1
+	- When we click on edit this page, we get URL as http://yourlink/path/page/edit/1
+
+	- Same happens with second link.
+
+	- When we click on "Create a new page", we get URL as http://yourlink/path/page/13
+    - When we edit our created page, we get URL as http://yourlink/path/page/edit/13
+
+    See the page sequence, 
+    Pages which are already created have sequence as page/1 and page/2
+
+    Pages which are created by us have sequence starting from page/13 , page/14, page/15 and so on.
+
+    What about page/3 , page/4 , page/5 , page/6 , page/7 ???????
+
+    OKay, So lets try to access those pages directly :) 
+
+    When I access http://yourlink/path/page/4 (or any other) we get NOT FOUND error
+
+    But wait, when we access http://yourlink/path/page/6 we get Forbidden error :) 
+
+    Now think of what path we used to edit the page ??? :P 
+
+
+
